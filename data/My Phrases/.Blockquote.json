@@ -1,0 +1,30 @@
+{
+    "store": {},
+    "usageCount": 19,
+    "type": "script",
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "prompt": false,
+    "description": "Blockquote",
+    "omitTrigger": true,
+    "modes": [
+        1
+    ],
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "triggerInside": true,
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "backspace": true,
+        "immediate": false,
+        "abbreviations": [
+            "\\bq"
+        ]
+    },
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    }
+}
