@@ -1,3 +1,4 @@
 .*.s[a-z0-9][a-z0-9]
 *~
 autokey.log
+autokey.pid
