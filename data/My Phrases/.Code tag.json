@@ -1,0 +1,30 @@
+{
+    "description": "Code tag",
+    "modes": [
+        1
+    ],
+    "type": "script",
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "usageCount": 0,
+    "omitTrigger": true,
+    "prompt": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "abbreviation": {
+        "abbreviations": [
+            "<ccl"
+        ],
+        "ignoreCase": false,
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "triggerInside": true,
+        "backspace": true
+    },
+    "store": {},
+    "showInTrayMenu": false
+}
