@@ -1,0 +1,30 @@
+{
+    "abbreviation": {
+        "abbreviations": [
+            "longd"
+        ],
+        "ignoreCase": false,
+        "backspace": true,
+        "triggerInside": true,
+        "immediate": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "usageCount": 7,
+    "omitTrigger": true,
+    "description": "Long date",
+    "modes": [
+        1
+    ],
+    "prompt": false,
+    "type": "script",
+    "showInTrayMenu": false,
+    "store": {},
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    }
+}
