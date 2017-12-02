@@ -1,0 +1,30 @@
+{
+    "prompt": false,
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "type": "script",
+    "modes": [
+        1
+    ],
+    "showInTrayMenu": false,
+    "description": "Code from clipboard",
+    "abbreviation": {
+        "abbreviations": [
+            "<cccl"
+        ],
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "backspace": true,
+        "immediate": false,
+        "triggerInside": true
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "omitTrigger": true,
+    "store": {},
+    "usageCount": 32
+}

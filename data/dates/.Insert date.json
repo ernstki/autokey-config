@@ -1,0 +1,32 @@
+{
+    "prompt": false,
+    "store": {},
+    "hotkey": {
+        "hotKey": "d",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>",
+            "<shift>"
+        ]
+    },
+    "description": "Insert date",
+    "showInTrayMenu": false,
+    "type": "script",
+    "modes": [
+        3
+    ],
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "abbreviation": {
+        "wordChars": "[\\w]",
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "abbreviations": [],
+        "triggerInside": false
+    },
+    "usageCount": 2,
+    "omitTrigger": false
+}

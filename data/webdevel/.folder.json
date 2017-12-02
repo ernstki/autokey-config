@@ -1,0 +1,27 @@
+{
+    "hotkey": {
+        "hotKey": "<f8>",
+        "modifiers": [
+            "<ctrl>"
+        ]
+    },
+    "type": "folder",
+    "modes": [
+        3
+    ],
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "backspace": true,
+        "immediate": false,
+        "triggerInside": false
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "title": "webdevel",
+    "usageCount": 1
+}

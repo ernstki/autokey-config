@@ -1,0 +1,30 @@
+{
+    "prompt": false,
+    "store": {},
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "description": "ISO8601 date (no dashes)",
+    "showInTrayMenu": false,
+    "type": "script",
+    "modes": [
+        1
+    ],
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "abbreviation": {
+        "wordChars": "[\\w]",
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "abbreviations": [
+            "isod"
+        ],
+        "triggerInside": true
+    },
+    "usageCount": 0,
+    "omitTrigger": true
+}

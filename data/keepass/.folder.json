@@ -1,0 +1,23 @@
+{
+    "showInTrayMenu": false,
+    "title": "keepass",
+    "type": "folder",
+    "abbreviation": {
+        "ignoreCase": false,
+        "triggerInside": false,
+        "immediate": false,
+        "backspace": true,
+        "abbreviations": [],
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "usageCount": 0,
+    "filter": {
+        "regex": ".* - KeePassX",
+        "isRecursive": false
+    },
+    "modes": []
+}

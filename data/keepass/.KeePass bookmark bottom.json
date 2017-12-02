@@ -1,0 +1,31 @@
+{
+    "showInTrayMenu": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "omitTrigger": false,
+    "type": "script",
+    "prompt": false,
+    "hotkey": {
+        "modifiers": [
+            "<alt>",
+            "<shift>"
+        ],
+        "hotKey": "2"
+    },
+    "description": "KeePass bookmark bottom",
+    "store": {},
+    "usageCount": 0,
+    "abbreviation": {
+        "ignoreCase": false,
+        "triggerInside": false,
+        "immediate": false,
+        "backspace": true,
+        "abbreviations": [],
+        "wordChars": "[\\w]"
+    },
+    "modes": [
+        3
+    ]
+}

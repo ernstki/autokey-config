@@ -1,0 +1,32 @@
+{
+    "prompt": false,
+    "store": {},
+    "hotkey": {
+        "hotKey": "w",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>",
+            "<shift>"
+        ]
+    },
+    "description": "Wrap in blockquote tags",
+    "showInTrayMenu": false,
+    "type": "script",
+    "modes": [
+        3
+    ],
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "abbreviation": {
+        "wordChars": "[\\w]",
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "abbreviations": [],
+        "triggerInside": false
+    },
+    "usageCount": 0,
+    "omitTrigger": false
+}

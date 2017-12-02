@@ -1,0 +1,27 @@
+{
+    "hotkey": {
+        "hotKey": "<f7>",
+        "modifiers": [
+            "<ctrl>"
+        ]
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "type": "folder",
+    "showInTrayMenu": false,
+    "title": "dates",
+    "usageCount": 0,
+    "abbreviation": {
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "backspace": true,
+        "immediate": false,
+        "abbreviations": [],
+        "triggerInside": false
+    },
+    "modes": [
+        3
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "showInTrayMenu": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "omitTrigger": false,
+    "type": "script",
+    "prompt": false,
+    "hotkey": {
+        "modifiers": [
+            "<alt>",
+            "<ctrl>"
+        ],
+        "hotKey": "k"
+    },
+    "description": "Bring KeePassX to front",
+    "store": {},
+    "usageCount": 0,
+    "abbreviation": {
+        "ignoreCase": false,
+        "triggerInside": false,
+        "immediate": false,
+        "backspace": true,
+        "abbreviations": [],
+        "wordChars": "[\\w]"
+    },
+    "modes": [
+        3
+    ]
+}
