@@ -1,0 +1,31 @@
+{
+    "usageCount": 14, 
+    "omitTrigger": false, 
+    "prompt": false, 
+    "description": "Category", 
+    "abbreviation": {
+        "wordChars": "[\\w]", 
+        "abbreviations": [
+            "[[cat"
+        ], 
+        "immediate": true, 
+        "ignoreCase": true, 
+        "backspace": true, 
+        "triggerInside": true
+    }, 
+    "hotkey": {
+        "hotKey": null, 
+        "modifiers": []
+    }, 
+    "modes": [
+        1
+    ], 
+    "showInTrayMenu": false, 
+    "matchCase": false, 
+    "filter": {
+        "regex": null, 
+        "isRecursive": false
+    }, 
+    "type": "phrase", 
+    "sendMode": "kb"
+}

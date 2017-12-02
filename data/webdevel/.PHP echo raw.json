@@ -1,0 +1,30 @@
+{
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "usageCount": 0,
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "backspace": true,
+        "abbreviations": [
+            "<epr"
+        ],
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "triggerInside": false,
+        "ignoreCase": false
+    },
+    "store": {},
+    "modes": [
+        1
+    ],
+    "description": "PHP echo raw",
+    "type": "script",
+    "prompt": false
+}
