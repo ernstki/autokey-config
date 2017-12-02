@@ -1,26 +1,26 @@
 {
-    "showInTrayMenu": false,
+    "store": {},
+    "modes": [],
+    "prompt": false,
     "filter": {
         "regex": null,
         "isRecursive": false
     },
     "omitTrigger": false,
     "type": "script",
-    "prompt": false,
+    "description": "scriptlib",
+    "usageCount": 0,
     "hotkey": {
         "modifiers": [],
         "hotKey": null
     },
-    "description": "scriptlib",
-    "store": {},
-    "usageCount": 0,
     "abbreviation": {
+        "wordChars": "[\\w]",
         "ignoreCase": false,
-        "triggerInside": false,
-        "immediate": false,
-        "backspace": true,
         "abbreviations": [],
-        "wordChars": "[\\w]"
+        "immediate": false,
+        "triggerInside": false,
+        "backspace": true
     },
-    "modes": []
+    "showInTrayMenu": false
 }

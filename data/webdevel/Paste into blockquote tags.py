@@ -1,4 +1,6 @@
-from scriptlib import *
+# Same basic thing as "Wrap in blockquote tags" except it ignores
+# any selected text (and is maybe a bit simpler)
+from scriptlib import get_clip, set_clip, error_notify
 
 clipboard_empty = False
 try:
@@ -8,6 +10,11 @@ except:
     clipboard_empty = True
 
 clip = "<blockquote>" + clip + "</blockquote>"
-set_clip(clip)
+
+try:
+    set_clip(clip)
+except Exception as e:
+    error_notify(e)
+
 time.sleep(0.01)
 keyboard.send_keys("<ctrl>+v") # paste over the selection

@@ -1,30 +1,32 @@
 {
-    "prompt": false,
-    "hotkey": {
-        "hotKey": null,
-        "modifiers": []
-    },
-    "type": "script",
-    "modes": [
-        1
-    ],
-    "showInTrayMenu": false,
     "description": "Code tag",
+    "store": {},
     "abbreviation": {
         "abbreviations": [
-            "<ccl"
+            "<cc",
+            "<ccl",
+            "<co"
         ],
         "wordChars": "[\\w]",
         "ignoreCase": false,
+        "triggerInside": true,
         "backspace": true,
-        "immediate": false,
-        "triggerInside": true
+        "immediate": false
     },
-    "filter": {
-        "regex": null,
-        "isRecursive": false
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
     },
+    "modes": [
+        1
+    ],
+    "type": "script",
+    "usageCount": 9,
     "omitTrigger": true,
-    "store": {},
-    "usageCount": 1
+    "prompt": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "showInTrayMenu": false
 }

@@ -1,32 +1,32 @@
 {
-    "prompt": false,
+    "description": "Wrap in blockquote tags",
     "store": {},
+    "abbreviation": {
+        "abbreviations": [],
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "triggerInside": false,
+        "backspace": true,
+        "immediate": false
+    },
     "hotkey": {
-        "hotKey": "w",
         "modifiers": [
             "<alt>",
             "<ctrl>",
             "<shift>"
-        ]
+        ],
+        "hotKey": "b"
     },
-    "description": "Wrap in blockquote tags",
-    "showInTrayMenu": false,
-    "type": "script",
     "modes": [
         3
     ],
+    "type": "script",
+    "usageCount": 10,
+    "omitTrigger": false,
+    "prompt": false,
     "filter": {
         "isRecursive": false,
         "regex": null
     },
-    "abbreviation": {
-        "wordChars": "[\\w]",
-        "backspace": true,
-        "ignoreCase": false,
-        "immediate": false,
-        "abbreviations": [],
-        "triggerInside": false
-    },
-    "usageCount": 0,
-    "omitTrigger": false
+    "showInTrayMenu": false
 }

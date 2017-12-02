@@ -1,27 +1,27 @@
 {
+    "modes": [
+        3
+    ],
     "hotkey": {
         "hotKey": "<f7>",
         "modifiers": [
             "<ctrl>"
         ]
     },
-    "filter": {
-        "regex": null,
-        "isRecursive": false
-    },
+    "showInTrayMenu": true,
     "type": "folder",
-    "showInTrayMenu": false,
     "title": "dates",
-    "usageCount": 0,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
     "abbreviation": {
-        "wordChars": "[\\w]",
         "ignoreCase": false,
         "backspace": true,
-        "immediate": false,
         "abbreviations": [],
-        "triggerInside": false
+        "triggerInside": false,
+        "wordChars": "[\\w]",
+        "immediate": false
     },
-    "modes": [
-        3
-    ]
+    "usageCount": 0
 }
