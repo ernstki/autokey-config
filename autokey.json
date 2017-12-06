@@ -1,46 +1,46 @@
 {
-    "userCodeDir": "/home/ern6xv/.config/autokey/data/lib",
-    "toggleServiceHotkey": {
-        "enabled": true,
-        "hotKey": "k",
-        "modifiers": [
-            "<shift>",
-            "<super>"
-        ]
-    },
-    "configHotkey": {
-        "enabled": true,
-        "hotKey": "k",
-        "modifiers": [
-            "<super>"
-        ]
-    },
-    "folders": [],
     "version": "0.93.10",
     "settings": {
-        "enableQT4Workaround": false,
-        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
-        "windowDefaultSize": [
-            1452,
-            1001
-        ],
-        "isFirstRun": true,
+        "undoUsingBackspace": true,
+        "interfaceType": "XRecord",
+        "menuTakesFocus": false,
         "triggerItemByInitial": false,
+        "windowDefaultSize": [
+            1600,
+            870
+        ],
+        "promptToSave": false,
+        "showToolbar": true,
+        "isFirstRun": true,
+        "enableQT4Workaround": false,
+        "showTrayIcon": true,
+        "sortByUsageCount": true,
         "serviceRunning": true,
+        "scriptGlobals": {},
+        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
         "columnWidths": [
             150,
             50,
             100
         ],
-        "undoUsingBackspace": true,
-        "showToolbar": true,
-        "notificationIcon": "autokey-status",
-        "showTrayIcon": true,
-        "hPanePosition": 439,
-        "sortByUsageCount": true,
-        "interfaceType": "XRecord",
-        "promptToSave": false,
-        "menuTakesFocus": false,
-        "scriptGlobals": {}
-    }
+        "hPanePosition": 543,
+        "notificationIcon": "autokey-status"
+    },
+    "configHotkey": {
+        "hotKey": "k",
+        "enabled": true,
+        "modifiers": [
+            "<super>"
+        ]
+    },
+    "userCodeDir": "/home/ern6xv/.config/autokey/data/lib",
+    "toggleServiceHotkey": {
+        "hotKey": "k",
+        "enabled": true,
+        "modifiers": [
+            "<shift>",
+            "<super>"
+        ]
+    },
+    "folders": []
 }
