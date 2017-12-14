@@ -1,0 +1,23 @@
+{
+    "modes": [],
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "type": "folder",
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "triggerInside": false,
+        "backspace": true,
+        "abbreviations": [],
+        "immediate": false,
+        "ignoreCase": false,
+        "wordChars": "[\\w]"
+    },
+    "title": "correspondence",
+    "usageCount": 1
+}

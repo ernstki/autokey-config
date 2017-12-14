@@ -1,0 +1,32 @@
+{
+    "sendMode": "kb",
+    "modes": [
+        1
+    ],
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "showInTrayMenu": false,
+    "type": "phrase",
+    "matchCase": false,
+    "abbreviation": {
+        "triggerInside": false,
+        "backspace": true,
+        "abbreviations": [
+            "\\nrr",
+            "[nrr"
+        ],
+        "immediate": false,
+        "ignoreCase": false,
+        "wordChars": "[\\w]"
+    },
+    "usageCount": 1,
+    "description": "No response necessary",
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "prompt": false,
+    "omitTrigger": false
+}
