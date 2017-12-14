@@ -15,8 +15,8 @@
     "modes": [
         1
     ],
-    "description": "Right arrow",
-    "usageCount": 0,
+    "description": "Right arrow (U+2192)",
+    "usageCount": 1,
     "prompt": false,
     "abbreviation": {
         "triggerInside": false,

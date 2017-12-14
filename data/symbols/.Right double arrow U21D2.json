@@ -1,0 +1,31 @@
+{
+    "omitTrigger": true,
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "sendMode": "kb",
+    "matchCase": false,
+    "type": "phrase",
+    "showInTrayMenu": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "modes": [
+        1
+    ],
+    "description": "Right double arrow (U+21D2)",
+    "usageCount": 0,
+    "prompt": false,
+    "abbreviation": {
+        "triggerInside": false,
+        "abbreviations": [
+            "\\Rarr"
+        ],
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "immediate": false
+    }
+}

@@ -15,13 +15,13 @@
     "modes": [
         1
     ],
-    "description": "Right double arrow",
-    "usageCount": 0,
+    "description": "Delta (U+0394)",
+    "usageCount": 4,
     "prompt": false,
     "abbreviation": {
         "triggerInside": false,
         "abbreviations": [
-            "\\Rarr"
+            "\\delta"
         ],
         "backspace": true,
         "wordChars": "[\\w]",
