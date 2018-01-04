@@ -1,0 +1,32 @@
+{
+    "store": {},
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "omitTrigger": true,
+    "prompt": false,
+    "modes": [
+        1
+    ],
+    "description": "Wikipedia link",
+    "usageCount": 16,
+    "abbreviation": {
+        "triggerInside": false,
+        "ignoreCase": false,
+        "wordChars": "[^ \\n]",
+        "abbreviations": [
+            "[[wp:",
+            "\\wp",
+            "[[wp"
+        ],
+        "immediate": false,
+        "backspace": true
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "showInTrayMenu": false,
+    "type": "script"
+}
