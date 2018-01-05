@@ -1,31 +1,34 @@
 {
-    "description": "GeSHi source tag",
+    "description": "Right arrow (sendkeys)",
     "prompt": false,
     "store": {},
     "hotkey": {
-        "hotKey": null,
-        "modifiers": []
+        "hotKey": "m",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>",
+            "<shift>"
+        ]
     },
     "showInTrayMenu": false,
     "abbreviation": {
         "backspace": true,
         "wordChars": "[\\w]",
         "abbreviations": [
-            "<ssou",
-            "<sou"
+            "\\rarr"
         ],
         "ignoreCase": false,
         "triggerInside": true,
         "immediate": false
     },
     "type": "script",
-    "usageCount": 20,
+    "usageCount": 4,
     "omitTrigger": true,
     "modes": [
         1
     ],
     "filter": {
-        "regex": ".*tfwiki\\.cchmc\\.org.*",
+        "regex": null,
         "isRecursive": false
     }
 }

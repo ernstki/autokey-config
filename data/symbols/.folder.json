@@ -1,23 +1,27 @@
 {
-    "modes": [],
+    "hotkey": {
+        "hotKey": "<f9>",
+        "modifiers": [
+            "<ctrl>"
+        ]
+    },
+    "showInTrayMenu": false,
+    "title": "symbols",
+    "abbreviation": {
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "abbreviations": [],
+        "ignoreCase": false,
+        "triggerInside": false,
+        "immediate": false
+    },
     "type": "folder",
+    "usageCount": 6,
     "filter": {
         "regex": null,
         "isRecursive": false
     },
-    "usageCount": 0,
-    "showInTrayMenu": false,
-    "hotkey": {
-        "hotKey": null,
-        "modifiers": []
-    },
-    "title": "symbols",
-    "abbreviation": {
-        "abbreviations": [],
-        "triggerInside": false,
-        "backspace": true,
-        "wordChars": "[\\w]",
-        "immediate": false,
-        "ignoreCase": false
-    }
+    "modes": [
+        3
+    ]
 }

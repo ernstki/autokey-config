@@ -1,8 +1,8 @@
 {
-    "description": "Delta (U+0394)",
+    "description": "Trademark (U+2122)",
     "showInTrayMenu": false,
     "sendMode": "kb",
-    "usageCount": 4,
+    "usageCount": 2,
     "type": "phrase",
     "modes": [],
     "filter": {
@@ -19,10 +19,10 @@
         "backspace": true,
         "wordChars": "[\\w]",
         "abbreviations": [
-            "\\delta"
+            "\\tm"
         ],
         "ignoreCase": false,
-        "triggerInside": false,
+        "triggerInside": true,
         "immediate": false
     },
     "omitTrigger": true

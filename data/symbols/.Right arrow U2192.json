@@ -1,31 +1,29 @@
 {
-    "omitTrigger": true,
-    "hotkey": {
-        "hotKey": null,
-        "modifiers": []
-    },
-    "sendMode": "kb",
-    "matchCase": false,
-    "type": "phrase",
+    "description": "Right arrow (U+2192)",
     "showInTrayMenu": false,
+    "sendMode": "kb",
+    "usageCount": 1,
+    "type": "phrase",
+    "modes": [],
     "filter": {
         "regex": null,
         "isRecursive": false
     },
-    "modes": [
-        1
-    ],
-    "description": "Right arrow (U+2192)",
-    "usageCount": 1,
+    "matchCase": false,
     "prompt": false,
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
     "abbreviation": {
-        "triggerInside": false,
+        "backspace": true,
+        "wordChars": "[\\w]",
         "abbreviations": [
             "\\rarr"
         ],
-        "backspace": true,
-        "wordChars": "[\\w]",
         "ignoreCase": false,
+        "triggerInside": false,
         "immediate": false
-    }
+    },
+    "omitTrigger": true
 }
