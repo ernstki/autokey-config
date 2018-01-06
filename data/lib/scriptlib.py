@@ -100,16 +100,19 @@ def for_length_of(s1, s2):
     return ''.join([s2 for _ in range(0, len(s1))])         
 
         
-def wrap_clip(format_string):
+def wrap_clip(format_string, clip_text=None):
     """
     Wrap the clipboard contents in arbitrary text.
-    
+      
     The format_string parameter should look something like
     
         <before>%c%|</after>
 
     where '%c' is the clipboard contents and '%|' is the final cursor
     position.
+
+    If 'clip_text' is provided, it is used to replace the '%c' token in
+    lieu of the clipboard.
     
     FIXME: dunno how to keyboard.send_keys() within an included
     library in AutoKey ('import autokey.scripting' doesn't work), so
@@ -138,11 +141,12 @@ def wrap_clip(format_string):
     if not format_string:
         raise ScriptLibException('Non-empty string argument required')
 
-    try:
-        clip_text = get_clip()
-    except:
-        # this catches errors and an empty clipboard
-        clip_text = ''
+    if clip_text is None:
+        try:
+            clip_text = get_clip()
+        except:
+            # this catches errors and an empty clipboard
+            clip_text = ''
 
     # split the input string at the places where user wants to insert
     # the contents of the clipboard

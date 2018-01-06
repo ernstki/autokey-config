@@ -1,46 +1,46 @@
 {
     "settings": {
-        "triggerItemByInitial": false,
-        "sortByUsageCount": true,
-        "hPanePosition": 415,
-        "promptToSave": false,
-        "isFirstRun": true,
-        "scriptGlobals": {},
-        "notificationIcon": "autokey-status",
-        "serviceRunning": true,
-        "interfaceType": "XRecord",
         "showToolbar": true,
+        "showTrayIcon": true,
+        "isFirstRun": true,
+        "serviceRunning": true,
+        "sortByUsageCount": true,
+        "triggerItemByInitial": false,
+        "interfaceType": "XRecord",
+        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
+        "menuTakesFocus": false,
+        "undoUsingBackspace": true,
+        "promptToSave": false,
+        "windowDefaultSize": [
+            1600,
+            978
+        ],
+        "notificationIcon": "autokey-status",
+        "scriptGlobals": {},
+        "hPanePosition": 415,
         "columnWidths": [
             150,
             50,
             100
         ],
-        "windowDefaultSize": [
-            1600,
-            978
-        ],
-        "menuTakesFocus": false,
-        "undoUsingBackspace": true,
-        "enableQT4Workaround": false,
-        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
-        "showTrayIcon": true
+        "enableQT4Workaround": false
     },
+    "version": "0.93.10",
+    "configHotkey": {
+        "modifiers": [
+            "<super>"
+        ],
+        "enabled": true,
+        "hotKey": "k"
+    },
+    "userCodeDir": "/home/ern6xv/.config/autokey/data/lib",
     "toggleServiceHotkey": {
-        "hotKey": "k",
         "modifiers": [
             "<shift>",
             "<super>"
         ],
-        "enabled": true
+        "enabled": true,
+        "hotKey": "k"
     },
-    "userCodeDir": "/home/ern6xv/.config/autokey/data/lib",
-    "folders": [],
-    "version": "0.93.10",
-    "configHotkey": {
-        "hotKey": "k",
-        "modifiers": [
-            "<super>"
-        ],
-        "enabled": true
-    }
+    "folders": []
 }
