@@ -1,15 +1,26 @@
 {
-    "abbreviation": {
-        "ignoreCase": false,
-        "immediate": false,
-        "abbreviations": [],
-        "triggerInside": false,
-        "backspace": true,
-        "wordChars": "[\\w]"
-    },
-    "omitTrigger": false,
     "type": "script",
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "showInTrayMenu": false,
+    "store": {},
+    "usageCount": 0,
+    "prompt": false,
+    "modes": [
+        3
+    ],
+    "abbreviation": {
+        "immediate": false,
+        "backspace": true,
+        "ignoreCase": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]",
+        "abbreviations": []
+    },
     "description": "Wrap in anchor tag",
+    "omitTrigger": false,
     "hotkey": {
         "hotKey": "a",
         "modifiers": [
@@ -17,16 +28,5 @@
             "<ctrl>",
             "<shift>"
         ]
-    },
-    "prompt": false,
-    "showInTrayMenu": false,
-    "modes": [
-        3
-    ],
-    "filter": {
-        "isRecursive": false,
-        "regex": null
-    },
-    "usageCount": 0,
-    "store": {}
+    }
 }

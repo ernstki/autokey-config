@@ -1,0 +1,30 @@
+{
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "store": {},
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "backspace": true,
+        "immediate": false,
+        "abbreviations": [],
+        "ignoreCase": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [
+            "<alt>",
+            "<ctrl>",
+            "<shift>"
+        ],
+        "hotKey": "w"
+    },
+    "type": "script",
+    "prompt": false,
+    "modes": [],
+    "usageCount": 13,
+    "description": "Wrap"
+}

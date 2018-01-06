@@ -17,7 +17,7 @@ class EmptyXSelection(ScriptLibException):
         self.value = ERR_NOXSEL
     def __str__(self):
         return repr(self.value)
-        
+
 class EmptyClipboard(ScriptLibException):
     def __init__(self, value):
         self.value = ERR_NOCLIP
@@ -25,13 +25,30 @@ class EmptyClipboard(ScriptLibException):
         return repr(self.value)
 
 
-def error_notify(msg, level='normal', reraise=True, bail=False):
-    system("notify-send -u %s -i dialog-warning 'AutoKey script' '%s'"
-           % (level, msg))
+def notify_error(msg, level='normal', reraise=True, bail=False,
+                 icon='warning'):
+    """
+    Use 'notify-send' to send a desktop notification of an error.
+    
+    Optionally, quit the script if 'bail' parameter is True.
+    
+    At the present time, I'm not sure if 'reraise' does anything, but
+    I think it causes the script to terminate if notify_error() was
+    called inside an exception handler. Maybe?
+    """
+    system("notify-send -u %s -i dialog-%s 'AutoKey script' '%s'"
+           % (level, icon, msg))
     if bail:
         exit(1)
     if reraise:
         raise
+        
+        
+def notify_warn(msg, level='normal', reraise=True):
+    """
+    Same as above, except don't terminate the script
+    """
+    notify_error(msg, level, reraise=False, icon='information')
     
 
 def get_sel():
@@ -83,25 +100,23 @@ def for_length_of(s1, s2):
     return ''.join([s2 for _ in range(0, len(s1))])         
 
         
-def wrap_clip(format_string, clip_text=None):
+def wrap_clip(format_string):
     """
     Wrap the clipboard contents in arbitrary text.
     
-    It reads the clipboard (running 'xclip' in a subprocess) unless
-    'clip_text' parameter is also given.
+    The format_string parameter should look something like
     
-    The format string should look something like "<before>%c%|</after>"
+        <before>%c%|</after>
+
     where '%c' is the clipboard contents and '%|' is the final cursor
     position.
     
-    Returns: the number of times to press <left> to get the cursor
-    in the position specified with the "cursor here" token in
-    format_string.
- 
-    FIXME: dunno how to keyboard.send_keys() within an included library
-    in AutoKey, so this function isn't actually re-setting the clipboard
-    when it's done.
-   
+    FIXME: dunno how to keyboard.send_keys() within an included
+    library in AutoKey ('import autokey.scripting' doesn't work), so
+    this function isn't actually positioning the cursor for you, or
+    re-setting the clipboard when it's done. For now, you have to do
+    that in the calling AutoKey script.
+    
     If '%|' is found in the format_string, the cursor is put exactly
     there, regardless of whether some text was on the clipboard.
     
@@ -114,17 +129,20 @@ def wrap_clip(format_string, clip_text=None):
     what the "after" text is.
     
     If '%c' isn't found in format_string, an exception is raised.
+    
+    Returns:
+        the number of times to press <left> to get the cursor in
+        the position specified with the "cursor here" token in
+        format_string.
     """
     if not format_string:
         raise ScriptLibException('Non-empty string argument required')
-            
-    
-    if clip_text is None:
-        try:
-            clip_text = get_clip()
-        except:
-            # this catches errors and an empty clipboard
-            clip_text = ''
+
+    try:
+        clip_text = get_clip()
+    except:
+        # this catches errors and an empty clipboard
+        clip_text = ''
 
     # split the input string at the places where user wants to insert
     # the contents of the clipboard
@@ -149,16 +167,16 @@ def wrap_clip(format_string, clip_text=None):
         # stitch back together without the '%|'
         replacement = ''.join(cursor_parts)
     else:
-        # if there was something on the clipboard, put the cursor right
+        # if there was nothing on the clipboard, put the cursor right
         # before the last chunk of literal text from the format string,
         # otherwise, put the cursor at the end of the inserted text
-        after = clip_parts[-1] if clip else ''
+        after = clip_parts[-1] if not clip_text else ''
         
     try:
         set_clip(replacement)
         time.sleep(0.1)  # FIXME: pause for the subprocess to finish
     except Exception as e:
-        error_notify(e)  # this terminates the script
+        notify_error(e)  # this terminates the script
         
     # return the number of times to press the left arrow key
     return len(after)

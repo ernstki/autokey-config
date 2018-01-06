@@ -6,21 +6,26 @@
     },
     "showInTrayMenu": false,
     "store": {},
-    "usageCount": 3,
+    "usageCount": 11,
     "prompt": false,
-    "modes": [],
+    "modes": [
+        1,
+        3
+    ],
     "abbreviation": {
         "immediate": false,
         "backspace": true,
         "ignoreCase": false,
         "triggerInside": false,
-        "wordChars": "[\\w]",
-        "abbreviations": []
+        "wordChars": "[^ \\n]",
+        "abbreviations": [
+            "[el"
+        ]
     },
-    "description": "Paste into blockquote tags",
-    "omitTrigger": false,
+    "description": "External link",
+    "omitTrigger": true,
     "hotkey": {
-        "hotKey": "v",
+        "hotKey": "l",
         "modifiers": [
             "<alt>",
             "<ctrl>",

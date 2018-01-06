@@ -17,7 +17,7 @@ sel = "<tt>" + sel + "</tt>"
 try:
     set_clip(sel)
 except Exception as e:
-    error_notify(e)
+    notify_error(e)
 
 time.sleep(0.01)
 keyboard.send_keys("<ctrl>+v") # paste over the selection

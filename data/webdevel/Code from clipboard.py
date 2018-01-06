@@ -1,4 +1,4 @@
-from scriptlib import error_notify, for_length_of
+from scriptlib import for_length_of
  
 code = ''
 lang = 'bash'  # default syntax highlighting language

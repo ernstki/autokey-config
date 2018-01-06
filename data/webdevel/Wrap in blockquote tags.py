@@ -1,7 +1,8 @@
 # Note that this does the same thing as "Blockquote tags" does when
 # there's no selection, except that that one has an abbreviation and 
 # and this has a hotkey.
-from scriptlib import get_sel, get_clip, set_clip, for_length_of
+from scriptlib import get_sel, get_clip, set_clip, for_length_of, \
+                      notify_error
 
 no_selection = False
 try:
@@ -19,7 +20,7 @@ sel = "<blockquote>" + sel + "</blockquote>"
 try:
     set_clip(sel)
 except Exception as e:
-    error_notify(e)
+    notify_error(e)
 
 time.sleep(0.01)
 keyboard.send_keys("<ctrl>+v") # paste over the selection

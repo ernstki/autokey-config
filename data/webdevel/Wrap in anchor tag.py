@@ -8,7 +8,7 @@ try:
     url = get_clip()
 except Exception as e:
     # Nope, guess there wasn't. Can't go on.
-    error_notify(e.message)
+    notify_error(e.message)
     
 try:
     # See if there's anything in the X selection:
@@ -17,7 +17,7 @@ except EmptyXSelection as e:
     XSelectionIsEmpty = True
 except Exception as e:
     # Something else went wrong:
-    error_notify(e.message)
+    notify_error(e.message)
 
 if XSelectionIsEmpty:
     # Paste the contents of the clipboard in the href attribute, then put the

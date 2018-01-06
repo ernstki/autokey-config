@@ -4,13 +4,10 @@
         "hotKey": null
     },
     "abbreviation": {
-        "abbreviations": [
-            "<ssou",
-            "<sou"
-        ],
+        "abbreviations": [],
         "immediate": false,
         "wordChars": "[\\w]",
-        "triggerInside": true,
+        "triggerInside": false,
         "backspace": true,
         "ignoreCase": false
     },
@@ -18,14 +15,12 @@
         "isRecursive": false,
         "regex": null
     },
-    "description": "GeSHi source tag",
-    "omitTrigger": true,
+    "description": "wrap_selection",
+    "omitTrigger": false,
     "prompt": false,
     "store": {},
     "type": "script",
     "showInTrayMenu": false,
-    "modes": [
-        1
-    ],
-    "usageCount": 20
+    "modes": [],
+    "usageCount": 0
 }
