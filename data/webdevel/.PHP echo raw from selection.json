@@ -1,6 +1,6 @@
 {
     "hotkey": {
-        "hotKey": "s",
+        "hotKey": "r",
         "modifiers": [
             "<alt>",
             "<ctrl>",
@@ -10,11 +10,10 @@
     "type": "script",
     "omitTrigger": true,
     "modes": [
-        1,
         3
     ],
     "showInTrayMenu": false,
-    "description": "GeSHi source tag",
+    "description": "PHP echo raw (from selection)",
     "filter": {
         "regex": null,
         "isRecursive": false
@@ -23,14 +22,14 @@
     "abbreviation": {
         "ignoreCase": false,
         "wordChars": "[\\w]",
-        "triggerInside": true,
+        "triggerInside": false,
         "immediate": false,
         "backspace": true,
         "abbreviations": [
-            "<ssou",
-            "<sou"
+            "<epr",
+            "\\epr"
         ]
     },
     "store": {},
-    "usageCount": 27
+    "usageCount": 2
 }

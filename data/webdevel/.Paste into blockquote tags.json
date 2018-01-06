@@ -1,24 +1,4 @@
 {
-    "type": "script",
-    "filter": {
-        "isRecursive": false,
-        "regex": null
-    },
-    "showInTrayMenu": false,
-    "store": {},
-    "usageCount": 3,
-    "prompt": false,
-    "modes": [],
-    "abbreviation": {
-        "immediate": false,
-        "backspace": true,
-        "ignoreCase": false,
-        "triggerInside": false,
-        "wordChars": "[\\w]",
-        "abbreviations": []
-    },
-    "description": "Paste into blockquote tags",
-    "omitTrigger": false,
     "hotkey": {
         "hotKey": "v",
         "modifiers": [
@@ -26,5 +6,29 @@
             "<ctrl>",
             "<shift>"
         ]
-    }
+    },
+    "type": "script",
+    "omitTrigger": true,
+    "modes": [
+        1
+    ],
+    "showInTrayMenu": false,
+    "description": "Paste into blockquote tags",
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "prompt": false,
+    "abbreviation": {
+        "ignoreCase": false,
+        "wordChars": "[\\w]",
+        "triggerInside": false,
+        "immediate": false,
+        "backspace": true,
+        "abbreviations": [
+            "\\bq"
+        ]
+    },
+    "store": {},
+    "usageCount": 3
 }

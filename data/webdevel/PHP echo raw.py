@@ -1,17 +1,23 @@
+# Wrap the clipboard text in a print_r for PHP debugging
 import time
+from scriptlib import get_clip, set_clip, wrap_clip
 
-INTERKEY_DELAY = 0.08
+DELAY = 0.08
+START = 'echo "<pre>"; print_r('
+END = '); echo "</pre>\\n";'
 
-open_tag       = 'echo "<pre>"; print_r('
-close_tag      = '); echo "</pre>\\n";'
+# get clipboard contents so we can restore later
+try:
+    clip_text = get_clip()
+except:
+    clip_text = ''
+  
+lefts = wrap_clip(START + '%c' + END, clip_text=clip_text)
+keyboard.send_keys('<ctrl>+v')
 
-time.sleep(INTERKEY_DELAY)
-keyboard.send_keys(open_tag)
-time.sleep(INTERKEY_DELAY)
-keyboard.send_keys(close_tag)
-time.sleep(INTERKEY_DELAY*2)
+time.sleep(DELAY)
+keyboard.send_keys('<left>' * lefts)
 
-#keyboard.send_keys(''.join(['<left>' for _ in range(0, len(close_tag) + 3)]))
-for _ in range(0, len(close_tag)):
-    keyboard.send_keys('<left>')
-    #time.sleep(INTERKEY_DELAY/4.0)
+if clip_text:
+    time.sleep(DELAY)
+    set_clip(clip_text)

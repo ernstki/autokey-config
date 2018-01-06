@@ -16,7 +16,7 @@
     "showInTrayMenu": false,
     "description": "Wikipedia link",
     "filter": {
-        "regex": ".*tfwiki.cchmc.org.*",
+        "regex": null,
         "isRecursive": false
     },
     "prompt": false,

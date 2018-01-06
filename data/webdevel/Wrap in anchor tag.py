@@ -1,5 +1,6 @@
 from os import system
 from scriptlib import *
+
 XSelectionIsEmpty = False
 
 try:
