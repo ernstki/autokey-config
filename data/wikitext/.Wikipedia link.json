@@ -1,32 +1,37 @@
 {
     "hotkey": {
-        "modifiers": [],
-        "hotKey": null
+        "hotKey": "w",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>",
+            "<shift>"
+        ]
     },
+    "type": "script",
+    "omitTrigger": true,
+    "modes": [
+        1,
+        3
+    ],
+    "showInTrayMenu": false,
+    "description": "Wikipedia link",
+    "filter": {
+        "regex": ".*tfwiki.cchmc.org.*",
+        "isRecursive": false
+    },
+    "prompt": false,
     "abbreviation": {
-        "abbreviations": [
-            "\\wp",
-            "[[wp:",
-            "[[wp"
-        ],
-        "immediate": false,
+        "ignoreCase": false,
         "wordChars": "[^ \\n]",
         "triggerInside": false,
+        "immediate": false,
         "backspace": true,
-        "ignoreCase": false
+        "abbreviations": [
+            "[[wp:",
+            "\\wp",
+            "[[wp"
+        ]
     },
-    "filter": {
-        "isRecursive": false,
-        "regex": null
-    },
-    "description": "Wikipedia link",
-    "omitTrigger": true,
-    "prompt": false,
     "store": {},
-    "type": "script",
-    "showInTrayMenu": false,
-    "modes": [
-        1
-    ],
     "usageCount": 27
 }

@@ -8,7 +8,6 @@ from scriptlib import wrap_clip, get_clip, get_sel, set_clip, \
 # save the clipboard so we can restore it
 try:
     clip_text = get_clip()
-
 except:
     # catches errors or an empty clipboard
     clip_text = ''
