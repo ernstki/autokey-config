@@ -1,6 +1,6 @@
 {
     "hotkey": {
-        "hotKey": "r",
+        "hotKey": "b",
         "modifiers": [
             "<alt>",
             "<ctrl>",
@@ -14,7 +14,7 @@
         3
     ],
     "showInTrayMenu": false,
-    "description": "PHP echo raw",
+    "description": "Blockquote",
     "filter": {
         "regex": null,
         "isRecursive": false
@@ -27,9 +27,9 @@
         "immediate": false,
         "backspace": true,
         "abbreviations": [
-            "<epr"
+            "<bq"
         ]
     },
     "store": {},
-    "usageCount": 6
+    "usageCount": 17
 }

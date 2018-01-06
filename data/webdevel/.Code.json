@@ -1,6 +1,6 @@
 {
     "hotkey": {
-        "hotKey": "r",
+        "hotKey": "c",
         "modifiers": [
             "<alt>",
             "<ctrl>",
@@ -14,7 +14,7 @@
         3
     ],
     "showInTrayMenu": false,
-    "description": "PHP echo raw",
+    "description": "Code",
     "filter": {
         "regex": null,
         "isRecursive": false
@@ -23,13 +23,13 @@
     "abbreviation": {
         "ignoreCase": false,
         "wordChars": "[\\w]",
-        "triggerInside": false,
+        "triggerInside": true,
         "immediate": false,
         "backspace": true,
         "abbreviations": [
-            "<epr"
+            "<cco"
         ]
     },
     "store": {},
-    "usageCount": 6
+    "usageCount": 16
 }

@@ -1,20 +1,15 @@
 {
     "hotkey": {
-        "hotKey": "b",
-        "modifiers": [
-            "<alt>",
-            "<ctrl>",
-            "<shift>"
-        ]
+        "hotKey": null,
+        "modifiers": []
     },
     "type": "script",
     "omitTrigger": true,
     "modes": [
-        1,
-        3
+        1
     ],
     "showInTrayMenu": false,
-    "description": "Wrap in blockquote tags",
+    "description": "PHP echo raw (from clipboard)",
     "filter": {
         "regex": null,
         "isRecursive": false
@@ -27,9 +22,9 @@
         "immediate": false,
         "backspace": true,
         "abbreviations": [
-            "<bq"
+            "\\epr"
         ]
     },
     "store": {},
-    "usageCount": 14
+    "usageCount": 8
 }

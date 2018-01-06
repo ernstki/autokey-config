@@ -10,8 +10,7 @@
     "type": "script",
     "omitTrigger": true,
     "modes": [
-        1,
-        3
+        1
     ],
     "showInTrayMenu": false,
     "description": "Wikipedia link",

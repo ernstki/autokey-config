@@ -1,5 +1,5 @@
-# Wrap the clipboard text in a print_r for PHP debugging; this one
-# 
+# Wrap the selection text in <code></code> tags; if the selection
+# is empty, just put the cursor inside the tags
 import time
 from scriptlib import get_sel, get_clip, set_clip
 
@@ -16,7 +16,7 @@ except:
     
 set_clip(sel)
 
-engine.run_script('PHP echo raw')
+engine.run_script('Code (from clipboard)')
 
 if clip_text:
     time.sleep(0.1)

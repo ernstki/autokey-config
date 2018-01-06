@@ -1,23 +1,23 @@
-# Wrap the clipboard text in a print_r for PHP debugging
+# Wrap the selection text in a PHP 'print_r' statement for debugging If
+# selection is empty, just put the cursor inside the 'print_r()'
 import time
-from scriptlib import get_clip, set_clip, wrap_clip
+from scriptlib import get_sel, get_clip, set_clip
 
-DELAY = 0.08
-START = 'echo "<pre>"; print_r('
-END = '); echo "</pre>\\n";'
-
-# get clipboard contents so we can restore later
+# get existing clipboard text, so we can restore it
 try:
     clip_text = get_clip()
 except:
     clip_text = ''
-  
-lefts = wrap_clip(START + '%c' + END, clip_text=clip_text)
-keyboard.send_keys('<ctrl>+v')
 
-time.sleep(DELAY)
-keyboard.send_keys('<left>' * lefts)
+try:
+    sel = get_sel()
+except:
+    sel = ''
+    
+set_clip(sel)
+
+engine.run_script('PHP echo raw (from clipboard)')
 
 if clip_text:
-    time.sleep(DELAY)
+    time.sleep(0.1)
     set_clip(clip_text)

@@ -1,0 +1,31 @@
+{
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "description": "Code tags",
+    "matchCase": false,
+    "prompt": false,
+    "type": "phrase",
+    "omitTrigger": true,
+    "showInTrayMenu": false,
+    "sendMode": "kb",
+    "abbreviation": {
+        "ignoreCase": false,
+        "wordChars": "[\\w]",
+        "triggerInside": false,
+        "immediate": false,
+        "backspace": true,
+        "abbreviations": [
+            "<co"
+        ]
+    },
+    "modes": [
+        1
+    ],
+    "usageCount": 3
+}

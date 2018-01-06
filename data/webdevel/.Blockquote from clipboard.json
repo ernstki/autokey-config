@@ -1,6 +1,6 @@
 {
     "hotkey": {
-        "hotKey": "r",
+        "hotKey": "v",
         "modifiers": [
             "<alt>",
             "<ctrl>",
@@ -10,10 +10,10 @@
     "type": "script",
     "omitTrigger": true,
     "modes": [
-        3
+        1
     ],
     "showInTrayMenu": false,
-    "description": "PHP echo raw (from selection)",
+    "description": "Blockquote (from clipboard)",
     "filter": {
         "regex": null,
         "isRecursive": false
@@ -26,10 +26,9 @@
         "immediate": false,
         "backspace": true,
         "abbreviations": [
-            "<epr",
-            "\\epr"
+            "\\bq"
         ]
     },
     "store": {},
-    "usageCount": 2
+    "usageCount": 4
 }

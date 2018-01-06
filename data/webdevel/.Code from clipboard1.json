@@ -1,6 +1,6 @@
 {
     "hotkey": {
-        "hotKey": "v",
+        "hotKey": "c",
         "modifiers": [
             "<alt>",
             "<ctrl>",
@@ -13,7 +13,7 @@
         1
     ],
     "showInTrayMenu": false,
-    "description": "Paste into blockquote tags",
+    "description": "Code (from clipboard)",
     "filter": {
         "regex": null,
         "isRecursive": false
@@ -26,9 +26,11 @@
         "immediate": false,
         "backspace": true,
         "abbreviations": [
-            "\\bq"
+            "\\code",
+            "<ccl",
+            "\\ccl"
         ]
     },
     "store": {},
-    "usageCount": 3
+    "usageCount": 75
 }
