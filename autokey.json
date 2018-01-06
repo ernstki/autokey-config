@@ -1,46 +1,46 @@
 {
-    "settings": {
-        "showToolbar": true,
-        "isFirstRun": true,
-        "notificationIcon": "autokey-status",
-        "promptToSave": false,
-        "undoUsingBackspace": true,
-        "sortByUsageCount": true,
-        "windowDefaultSize": [
-            1600,
-            978
+    "toggleServiceHotkey": {
+        "modifiers": [
+            "<shift>",
+            "<super>"
         ],
-        "menuTakesFocus": false,
-        "showTrayIcon": true,
+        "enabled": true,
+        "hotKey": "k"
+    },
+    "userCodeDir": "/home/ern6xv/.config/autokey/data/lib",
+    "configHotkey": {
+        "modifiers": [
+            "<super>"
+        ],
+        "enabled": true,
+        "hotKey": "k"
+    },
+    "folders": [],
+    "version": "0.93.10",
+    "settings": {
+        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
         "serviceRunning": true,
-        "enableQT4Workaround": false,
-        "triggerItemByInitial": false,
-        "interfaceType": "XRecord",
-        "hPanePosition": 489,
         "columnWidths": [
             150,
             50,
             100
         ],
-        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
-        "scriptGlobals": {}
-    },
-    "folders": [],
-    "configHotkey": {
-        "enabled": true,
-        "modifiers": [
-            "<super>"
+        "hPanePosition": 489,
+        "scriptGlobals": {},
+        "notificationIcon": "autokey-status",
+        "triggerItemByInitial": false,
+        "enableQT4Workaround": false,
+        "windowDefaultSize": [
+            1600,
+            978
         ],
-        "hotKey": "k"
-    },
-    "version": "0.93.10",
-    "userCodeDir": "/home/ern6xv/.config/autokey/data/lib",
-    "toggleServiceHotkey": {
-        "enabled": true,
-        "modifiers": [
-            "<shift>",
-            "<super>"
-        ],
-        "hotKey": "k"
+        "menuTakesFocus": false,
+        "isFirstRun": true,
+        "interfaceType": "XRecord",
+        "sortByUsageCount": true,
+        "promptToSave": false,
+        "showToolbar": true,
+        "undoUsingBackspace": true,
+        "showTrayIcon": true
     }
 }

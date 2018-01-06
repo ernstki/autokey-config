@@ -1,0 +1,7 @@
+{| class="wikitable"
+ ! One
+ ! Two
+ |-
+ | 
+ |-
+ |}<left><left><left><left><left><left><left><left>
