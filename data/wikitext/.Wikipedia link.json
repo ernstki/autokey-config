@@ -1,32 +1,32 @@
 {
     "store": {},
-    "filter": {
-        "isRecursive": false,
-        "regex": null
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
     },
-    "omitTrigger": true,
-    "prompt": false,
     "modes": [
         1
     ],
+    "type": "script",
+    "omitTrigger": true,
+    "usageCount": 23,
+    "prompt": false,
     "description": "Wikipedia link",
-    "usageCount": 16,
+    "showInTrayMenu": false,
     "abbreviation": {
-        "triggerInside": false,
         "ignoreCase": false,
-        "wordChars": "[^ \\n]",
         "abbreviations": [
+            "[[wp",
             "[[wp:",
-            "\\wp",
-            "[[wp"
+            "\\wp"
         ],
+        "wordChars": "[^ \\n]",
         "immediate": false,
+        "triggerInside": false,
         "backspace": true
     },
-    "hotkey": {
-        "modifiers": [],
-        "hotKey": null
-    },
-    "showInTrayMenu": false,
-    "type": "script"
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
 }

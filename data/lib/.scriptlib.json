@@ -1,26 +1,26 @@
 {
+    "description": "scriptlib",
+    "abbreviation": {
+        "ignoreCase": false,
+        "abbreviations": [],
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "triggerInside": false,
+        "immediate": false
+    },
     "store": {},
-    "modes": [],
-    "prompt": false,
     "filter": {
         "regex": null,
         "isRecursive": false
     },
-    "omitTrigger": false,
-    "type": "script",
-    "description": "scriptlib",
-    "usageCount": 0,
+    "modes": [],
     "hotkey": {
         "modifiers": [],
         "hotKey": null
     },
-    "abbreviation": {
-        "wordChars": "[\\w]",
-        "ignoreCase": false,
-        "abbreviations": [],
-        "immediate": false,
-        "triggerInside": false,
-        "backspace": true
-    },
+    "prompt": false,
+    "omitTrigger": false,
+    "type": "script",
+    "usageCount": 0,
     "showInTrayMenu": false
 }

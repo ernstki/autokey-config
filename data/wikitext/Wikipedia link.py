@@ -1,30 +1,22 @@
-# Note that this does the same thing as "Blockquote tags" does when
-# there's no selection, except that that one has an abbreviation and 
-# and this has a hotkey.
-from scriptlib import get_clip, set_clip, for_length_of, error_notify
+import time
+from scriptlib import wrap_clip, get_clip, set_clip
 
-clipboard_empty = False
-
+# save the clipboard so we can restore it
 try:
-    oldclip = get_clip() # because we're about to clobber it
-    clip = "[[wp:" + oldclip + "|" + oldclip + "]]"
+    oldclip = get_clip()
 except:
-    # this catches errors and an empty clipboard
-    cliboard_empty = True
-    clip = "[[wp:]]" 
+    # catches errors or an empty clipboard
+    oldclip = ''
 
-try:
-    set_clip(clip)
-except Exception as e:
-    error_notify(e)  # this terminates the script
-
-time.sleep(0.1)
+# wrap_clip returns the # of times to press <left> to get cursor in
+# the position specified in the format string ('%|')
+lefts = wrap_clip('[[wp:%c%||%c]]')
 keyboard.send_keys("<ctrl>+v")
 
-# Put the cursor inside the wikilink if the clipboard was empty
-if clipboard_empty:
-    time.sleep(0.1)
-    keyboard.send_keys("<left><left>")
-else:
+# give it a tick...
+time.sleep(0.1)
+keyboard.send_keys('<left>' * lefts)
+
+if oldclip:
     time.sleep(0.1)
     set_clip(oldclip) # restore previous clipboard contents
