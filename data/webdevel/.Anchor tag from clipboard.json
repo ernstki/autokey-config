@@ -1,18 +1,24 @@
 {
-    "usageCount": 0,
+    "usageCount": 9,
     "filter": {
         "regex": null,
         "isRecursive": false
     },
     "type": "script",
     "showInTrayMenu": false,
-    "modes": [],
+    "modes": [
+        3
+    ],
     "omitTrigger": false,
     "hotkey": {
-        "modifiers": [],
-        "hotKey": null
+        "modifiers": [
+            "<alt>",
+            "<ctrl>",
+            "<shift>"
+        ],
+        "hotKey": "a"
     },
-    "description": "scriptlib",
+    "description": "Anchor tag (from clipboard)",
     "prompt": false,
     "abbreviation": {
         "wordChars": "[\\w]",

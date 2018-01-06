@@ -7,22 +7,22 @@ ERR_NOXSEL = "No text found in X selection"
 ERR_NOCLIP = "No text found on clipboard"
 
 class ScriptLibException(Exception):
-    def __init__(self, value):
-        self.value = value
-    def __str__(self):
-        return repr(self.value)
+    def __init__(self, message):
+        self.message = message
+    def __repr__(self):
+        return self.message
 
 class EmptyXSelection(ScriptLibException):
-    def __init__(self, value):
-        self.value = ERR_NOXSEL
-    def __str__(self):
-        return repr(self.value)
+    def __init__(self, message):
+        self.message = ERR_NOXSEL
+    def __repr__(self):
+        return self.message
 
 class EmptyClipboard(ScriptLibException):
-    def __init__(self, value):
-        self.value = ERR_NOCLIP
-    def __str__(self):
-        return repr(self.value)
+    def __init__(self, message):
+        self.message = ERR_NOCLIP
+    def __repr__(self):
+        return self.message
 
 
 def notify_error(msg, level='normal', reraise=True, bail=False,

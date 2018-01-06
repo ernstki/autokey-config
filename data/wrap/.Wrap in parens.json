@@ -1,6 +1,6 @@
 {
     "hotkey": {
-        "hotKey": "a",
+        "hotKey": "w",
         "modifiers": [
             "<alt>",
             "<ctrl>",
@@ -9,11 +9,9 @@
     },
     "type": "script",
     "omitTrigger": false,
-    "modes": [
-        3
-    ],
+    "modes": [],
     "showInTrayMenu": false,
-    "description": "Wrap in anchor tag",
+    "description": "Wrap in parens",
     "filter": {
         "regex": null,
         "isRecursive": false
@@ -28,5 +26,5 @@
         "abbreviations": []
     },
     "store": {},
-    "usageCount": 0
+    "usageCount": 13
 }

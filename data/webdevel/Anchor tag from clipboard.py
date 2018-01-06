@@ -1,3 +1,4 @@
+import re
 from os import system
 from scriptlib import *
 
@@ -7,9 +8,11 @@ try:
     # See if there's anything on the clipboard:
     # url = clipboard.get_clipboard()
     url = get_clip()
+    if not re.match('[a-zA-Z]+://', url):
+        raise Exception('No valid URL found in clipboard.')
 except Exception as e:
     # Nope, guess there wasn't. Can't go on.
-    notify_error(e.message)
+    notify_error(e, reraise=False, bail=True)
     
 try:
     # See if there's anything in the X selection:
@@ -18,7 +21,7 @@ except EmptyXSelection as e:
     XSelectionIsEmpty = True
 except Exception as e:
     # Something else went wrong:
-    notify_error(e.message)
+    notify_error(e)
 
 if XSelectionIsEmpty:
     # Paste the contents of the clipboard in the href attribute, then put the
