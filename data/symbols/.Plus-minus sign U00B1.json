@@ -1,0 +1,27 @@
+{
+    "type": "phrase",
+    "description": "Plus-minus sign (U+00B1)",
+    "sendMode": "kb",
+    "modes": [],
+    "matchCase": false,
+    "showInTrayMenu": false,
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "abbreviation": {
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "immediate": false,
+        "abbreviations": [],
+        "triggerInside": false
+    },
+    "prompt": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "omitTrigger": false,
+    "usageCount": 0
+}

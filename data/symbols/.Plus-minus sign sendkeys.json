@@ -1,0 +1,34 @@
+{
+    "type": "script",
+    "hotkey": {
+        "hotKey": "m",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>",
+            "<shift>"
+        ]
+    },
+    "description": "Plus-minus sign (sendkeys)",
+    "modes": [
+        1
+    ],
+    "omitTrigger": true,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "showInTrayMenu": false,
+    "usageCount": 0,
+    "store": {},
+    "prompt": false,
+    "abbreviation": {
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "ignoreCase": true,
+        "immediate": false,
+        "abbreviations": [
+            "\\plusmn"
+        ],
+        "triggerInside": false
+    }
+}
