@@ -1,16 +1,10 @@
 {
-    "description": "Delta (U+0394)",
-    "showInTrayMenu": false,
-    "sendMode": "kb",
-    "usageCount": 4,
     "type": "phrase",
+    "description": "Delta (U+0394)",
+    "sendMode": "kb",
     "modes": [],
-    "filter": {
-        "regex": null,
-        "isRecursive": false
-    },
     "matchCase": false,
-    "prompt": false,
+    "showInTrayMenu": false,
     "hotkey": {
         "hotKey": null,
         "modifiers": []
@@ -18,12 +12,18 @@
     "abbreviation": {
         "backspace": true,
         "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "immediate": false,
         "abbreviations": [
             "\\delta"
         ],
-        "ignoreCase": false,
-        "triggerInside": false,
-        "immediate": false
+        "triggerInside": false
     },
-    "omitTrigger": true
+    "prompt": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "omitTrigger": true,
+    "usageCount": 0
 }

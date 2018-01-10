@@ -8,7 +8,7 @@
             "<shift>"
         ]
     },
-    "description": "Right double arrow (sendkeys)",
+    "description": "Division sign (U+00F7)",
     "modes": [
         1
     ],
@@ -24,10 +24,10 @@
     "abbreviation": {
         "backspace": true,
         "wordChars": "[\\w]",
-        "ignoreCase": false,
+        "ignoreCase": true,
         "immediate": false,
         "abbreviations": [
-            "\\Rarr"
+            "\\div"
         ],
         "triggerInside": true
     }

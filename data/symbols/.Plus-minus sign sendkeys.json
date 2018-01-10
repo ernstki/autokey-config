@@ -18,7 +18,7 @@
         "regex": null
     },
     "showInTrayMenu": false,
-    "usageCount": 0,
+    "usageCount": 1,
     "store": {},
     "prompt": false,
     "abbreviation": {
@@ -29,6 +29,6 @@
         "abbreviations": [
             "\\plusmn"
         ],
-        "triggerInside": false
+        "triggerInside": true
     }
 }

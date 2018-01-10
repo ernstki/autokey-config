@@ -8,7 +8,7 @@
             "<shift>"
         ]
     },
-    "description": "Right double arrow (sendkeys)",
+    "description": "Middle dot (U+00B7)",
     "modes": [
         1
     ],
@@ -18,16 +18,16 @@
         "regex": null
     },
     "showInTrayMenu": false,
-    "usageCount": 0,
+    "usageCount": 2,
     "store": {},
     "prompt": false,
     "abbreviation": {
         "backspace": true,
         "wordChars": "[\\w]",
-        "ignoreCase": false,
+        "ignoreCase": true,
         "immediate": false,
         "abbreviations": [
-            "\\Rarr"
+            "\\cdot"
         ],
         "triggerInside": true
     }

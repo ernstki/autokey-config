@@ -1,7 +1,5 @@
 {
-    "description": "Delta (sendkeys)",
-    "prompt": false,
-    "store": {},
+    "type": "script",
     "hotkey": {
         "hotKey": "m",
         "modifiers": [
@@ -10,25 +8,27 @@
             "<shift>"
         ]
     },
-    "showInTrayMenu": false,
-    "abbreviation": {
-        "backspace": true,
-        "wordChars": "[\\w]",
-        "abbreviations": [
-            "\\delta"
-        ],
-        "ignoreCase": true,
-        "triggerInside": true,
-        "immediate": false
-    },
-    "type": "script",
-    "usageCount": 0,
-    "omitTrigger": true,
+    "description": "Delta (sendkeys)",
     "modes": [
         1
     ],
+    "omitTrigger": true,
     "filter": {
-        "regex": null,
-        "isRecursive": false
+        "isRecursive": false,
+        "regex": null
+    },
+    "showInTrayMenu": false,
+    "usageCount": 0,
+    "store": {},
+    "prompt": false,
+    "abbreviation": {
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "ignoreCase": true,
+        "immediate": false,
+        "abbreviations": [
+            "\\delta"
+        ],
+        "triggerInside": true
     }
 }

@@ -8,7 +8,7 @@
             "<shift>"
         ]
     },
-    "description": "Right double arrow (sendkeys)",
+    "description": "Multiplication sign (sendkeys)",
     "modes": [
         1
     ],
@@ -18,16 +18,16 @@
         "regex": null
     },
     "showInTrayMenu": false,
-    "usageCount": 0,
+    "usageCount": 2,
     "store": {},
     "prompt": false,
     "abbreviation": {
         "backspace": true,
         "wordChars": "[\\w]",
-        "ignoreCase": false,
+        "ignoreCase": true,
         "immediate": false,
         "abbreviations": [
-            "\\Rarr"
+            "\\times"
         ],
         "triggerInside": true
     }

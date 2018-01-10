@@ -1,0 +1,29 @@
+{
+    "type": "phrase",
+    "description": "Multiplication sign (U+00D7)",
+    "sendMode": "kb",
+    "modes": [],
+    "matchCase": false,
+    "showInTrayMenu": false,
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "abbreviation": {
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "immediate": false,
+        "abbreviations": [
+            "\\delta"
+        ],
+        "triggerInside": false
+    },
+    "prompt": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "omitTrigger": true,
+    "usageCount": 4
+}
