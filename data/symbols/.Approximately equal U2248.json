@@ -1,0 +1,34 @@
+{
+    "type": "script",
+    "hotkey": {
+        "hotKey": "m",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>",
+            "<shift>"
+        ]
+    },
+    "description": "Approximately equal (U+2248)",
+    "modes": [
+        1
+    ],
+    "omitTrigger": true,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "showInTrayMenu": false,
+    "usageCount": 0,
+    "store": {},
+    "prompt": false,
+    "abbreviation": {
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "ignoreCase": true,
+        "immediate": false,
+        "abbreviations": [
+            "\\approx"
+        ],
+        "triggerInside": true
+    }
+}

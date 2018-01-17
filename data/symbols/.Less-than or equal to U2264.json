@@ -1,0 +1,34 @@
+{
+    "abbreviation": {
+        "ignoreCase": true,
+        "immediate": false,
+        "triggerInside": true,
+        "abbreviations": [
+            "\\leq"
+        ],
+        "backspace": true,
+        "wordChars": "[\\w]"
+    },
+    "omitTrigger": true,
+    "type": "script",
+    "usageCount": 0,
+    "hotkey": {
+        "hotKey": "m",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>",
+            "<shift>"
+        ]
+    },
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "description": "Less-than or equal to (U+2264)",
+    "modes": [
+        1
+    ],
+    "store": {},
+    "showInTrayMenu": false,
+    "prompt": false
+}
