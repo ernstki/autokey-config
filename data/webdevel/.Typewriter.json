@@ -1,4 +1,5 @@
 {
+    "showInTrayMenu": false,
     "hotkey": {
         "hotKey": "t",
         "modifiers": [
@@ -7,29 +8,28 @@
             "<shift>"
         ]
     },
-    "type": "script",
-    "omitTrigger": true,
+    "description": "Typewriter",
+    "prompt": false,
+    "store": {},
+    "usageCount": 53,
     "modes": [
         1,
         3
     ],
-    "showInTrayMenu": false,
-    "description": "Typewriter",
+    "type": "script",
+    "omitTrigger": true,
     "filter": {
-        "regex": null,
-        "isRecursive": false
+        "isRecursive": false,
+        "regex": null
     },
-    "prompt": false,
     "abbreviation": {
         "ignoreCase": false,
+        "abbreviations": [
+            "\\tt"
+        ],
         "wordChars": "[\\w]",
         "triggerInside": false,
         "immediate": false,
-        "backspace": true,
-        "abbreviations": [
-            "<tt"
-        ]
-    },
-    "store": {},
-    "usageCount": 48
+        "backspace": true
+    }
 }
