@@ -1,0 +1,31 @@
+{
+    "sendMode": "kb",
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "usageCount": 1,
+    "abbreviation": {
+        "immediate": false,
+        "backspace": true,
+        "triggerInside": false,
+        "abbreviations": [
+            "<wink"
+        ],
+        "ignoreCase": false,
+        "wordChars": "[\\w]"
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "showInTrayMenu": false,
+    "prompt": false,
+    "type": "phrase",
+    "matchCase": false,
+    "modes": [
+        1
+    ],
+    "omitTrigger": true,
+    "description": "Winking emoticon"
+}

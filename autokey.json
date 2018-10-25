@@ -1,46 +1,46 @@
 {
-    "userCodeDir": "/home/ern6xv/.config/autokey/data/lib",
-    "toggleServiceHotkey": {
-        "hotKey": "k",
-        "enabled": true,
-        "modifiers": [
-            "<shift>",
-            "<super>"
-        ]
-    },
     "settings": {
         "triggerItemByInitial": false,
+        "hPanePosition": 489,
+        "promptToSave": false,
+        "menuTakesFocus": false,
+        "sortByUsageCount": true,
+        "notificationIcon": "autokey-status",
         "isFirstRun": true,
+        "scriptGlobals": {},
+        "undoUsingBackspace": true,
+        "showToolbar": true,
+        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
+        "showTrayIcon": true,
+        "interfaceType": "XRecord",
+        "enableQT4Workaround": false,
+        "serviceRunning": true,
         "columnWidths": [
             150,
             50,
             100
         ],
-        "menuTakesFocus": false,
-        "hPanePosition": 489,
-        "sortByUsageCount": true,
-        "undoUsingBackspace": true,
-        "enableQT4Workaround": false,
-        "showTrayIcon": true,
-        "notificationIcon": "autokey-status",
-        "serviceRunning": true,
-        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
-        "promptToSave": false,
-        "interfaceType": "XRecord",
-        "scriptGlobals": {},
-        "showToolbar": true,
         "windowDefaultSize": [
             1600,
             978
         ]
     },
-    "configHotkey": {
+    "toggleServiceHotkey": {
+        "modifiers": [
+            "<shift>",
+            "<super>"
+        ],
         "hotKey": "k",
-        "enabled": true,
+        "enabled": true
+    },
+    "userCodeDir": "/home/ern6xv/.config/autokey/data/lib",
+    "configHotkey": {
         "modifiers": [
             "<super>"
-        ]
+        ],
+        "hotKey": "k",
+        "enabled": true
     },
-    "version": "0.93.10",
-    "folders": []
+    "folders": [],
+    "version": "0.93.10"
 }
