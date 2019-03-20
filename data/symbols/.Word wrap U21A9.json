@@ -1,0 +1,30 @@
+{
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "showInTrayMenu": false,
+    "modes": [
+        1
+    ],
+    "usageCount": 0,
+    "description": "Word wrap (U+21A9)",
+    "omitTrigger": false,
+    "store": {},
+    "prompt": false,
+    "abbreviation": {
+        "backspace": true,
+        "ignoreCase": false,
+        "wordChars": "[\\w]",
+        "triggerInside": true,
+        "abbreviations": [
+            "\\wrap"
+        ],
+        "immediate": false
+    },
+    "type": "script",
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    }
+}

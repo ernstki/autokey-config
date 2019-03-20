@@ -1,0 +1,27 @@
+{
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "showInTrayMenu": false,
+    "usageCount": 0,
+    "prompt": false,
+    "matchCase": false,
+    "modes": [],
+    "sendMode": "kb",
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "description": "Vertical ellipsis (U+22EE)",
+    "abbreviation": {
+        "immediate": false,
+        "wordChars": "[\\w]",
+        "backspace": true,
+        "abbreviations": [],
+        "triggerInside": false,
+        "ignoreCase": false
+    },
+    "omitTrigger": false,
+    "type": "phrase"
+}

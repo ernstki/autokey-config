@@ -1,0 +1,31 @@
+{
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "store": {},
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "abbreviation": {
+        "immediate": false,
+        "wordChars": "[\\w]",
+        "backspace": true,
+        "abbreviations": [
+            "\\vellips",
+            "\\velips"
+        ],
+        "triggerInside": true,
+        "ignoreCase": false
+    },
+    "showInTrayMenu": false,
+    "modes": [
+        1
+    ],
+    "description": "Vertical ellipsis (U+22EE)",
+    "type": "script",
+    "usageCount": 1,
+    "omitTrigger": true,
+    "prompt": false
+}

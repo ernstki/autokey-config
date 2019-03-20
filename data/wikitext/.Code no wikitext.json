@@ -1,0 +1,32 @@
+{
+    "showInTrayMenu": false,
+    "omitTrigger": true,
+    "description": "Code, no wikitext",
+    "abbreviation": {
+        "triggerInside": false,
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "ignoreCase": false,
+        "backspace": true,
+        "abbreviations": [
+            "<cnw",
+            "\\cnw"
+        ]
+    },
+    "matchCase": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "prompt": false,
+    "usageCount": 0,
+    "sendMode": "kb",
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "type": "phrase",
+    "modes": [
+        1
+    ]
+}
