@@ -1,0 +1,1 @@
+keyboard.send_keys("<shift>+<ctrl>+u21e5<enter>")

@@ -1,0 +1,30 @@
+{
+    "prompt": false,
+    "usageCount": 0,
+    "abbreviation": {
+        "wordChars": "[^ \\n]",
+        "ignoreCase": false,
+        "abbreviations": [
+            "\\tab"
+        ],
+        "immediate": false,
+        "triggerInside": true,
+        "backspace": true
+    },
+    "modes": [
+        1
+    ],
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "type": "script",
+    "showInTrayMenu": false,
+    "description": "Tabulator (U+21E5)",
+    "store": {},
+    "omitTrigger": true
+}
