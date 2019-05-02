@@ -1,0 +1,31 @@
+{
+    "showInTrayMenu": false,
+    "prompt": false,
+    "usageCount": 0,
+    "type": "phrase",
+    "modes": [
+        1
+    ],
+    "omitTrigger": true,
+    "sendMode": "kb",
+    "description": "GeSHI source tag",
+    "matchCase": false,
+    "abbreviation": {
+        "backspace": true,
+        "ignoreCase": false,
+        "triggerInside": true,
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "abbreviations": [
+            "<sou"
+        ]
+    },
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    }
+}
