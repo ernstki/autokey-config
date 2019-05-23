@@ -34,9 +34,7 @@ attr = (' class="language-%s"' % lang) if lang and ret==0 else ''
 # give the previous window enough time to get focused
 time.sleep(0.1)
 
-# <code> is a "special key" to AutoKey, so this is necessary :-(
-keyboard.send_key("<")
-keyboard.send_keys("code%s>" % attr)
+keyboard.send_keys("<code%s>" % attr)
 
 if code:
     keyboard.send_keys("<enter>")

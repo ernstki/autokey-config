@@ -20,7 +20,7 @@ except Exception as e:
     notify_error(e)
 
 time.sleep(0.01)
-keyboard.send_keys("<ctrl>+v") # paste over the selection
+keyboard.send_keys("<ctrl>+<shift>+v") # paste over the selection
 
 # Put the cursor inside the <tt></tt> tags if the selection was empty
 if no_selection:
