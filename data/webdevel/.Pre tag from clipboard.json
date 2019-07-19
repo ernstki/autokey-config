@@ -1,18 +1,17 @@
 {
     "type": "script",
-    "description": "Blockquote",
+    "description": "Pre tag (from clipboard)",
     "store": {},
     "modes": [
-        1,
-        3
+        1
     ],
-    "usageCount": 18,
+    "usageCount": 2,
     "prompt": false,
     "omitTrigger": true,
     "showInTrayMenu": false,
     "abbreviation": {
         "abbreviations": [
-            "<bq"
+            "\\pre"
         ],
         "backspace": true,
         "ignoreCase": false,
@@ -21,12 +20,8 @@
         "wordChars": "[\\w]"
     },
     "hotkey": {
-        "modifiers": [
-            "<alt>",
-            "<ctrl>",
-            "<shift>"
-        ],
-        "hotKey": "b"
+        "modifiers": [],
+        "hotKey": null
     },
     "filter": {
         "regex": null,
