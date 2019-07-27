@@ -24,7 +24,6 @@ cd ~/.config
 test -f autokey && mv autokey autokey.old
 
 # Weirauch Lab (internal)
-***REMOVED***
 git clone $GITHOSTURL/$MYUSER/autokey-config.git autokey
 
 # GitHub
