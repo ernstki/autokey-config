@@ -1,23 +1,23 @@
 {
-    "type": "script",
-    "description": "Highlight span (from clipboard)",
-    "store": {},
+    "type": "phrase",
+    "description": "Pre tags",
     "modes": [
         1
     ],
-    "usageCount": 10,
+    "usageCount": 18,
     "prompt": false,
     "omitTrigger": true,
+    "matchCase": false,
     "showInTrayMenu": false,
     "abbreviation": {
         "abbreviations": [
-            "\\hl"
+            "<pre"
         ],
         "backspace": true,
-        "ignoreCase": true,
+        "ignoreCase": false,
         "immediate": false,
         "triggerInside": true,
-        "wordChars": "[\\w]"
+        "wordChars": "[^ \\n]"
     },
     "hotkey": {
         "modifiers": [],
@@ -26,5 +26,6 @@
     "filter": {
         "regex": null,
         "isRecursive": false
-    }
+    },
+    "sendMode": "kb"
 }

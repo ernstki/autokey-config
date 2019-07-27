@@ -13,7 +13,7 @@ except:
     clip_text = ''
   
 lefts = wrap_clip(START + '%c' + END, clip_text=clip_text)
-keyboard.send_keys('<ctrl>+v')
+keyboard.send_keys('<shift>+<ctrl>+v')
 
 time.sleep(DELAY)
 keyboard.send_keys('<left>' * lefts)

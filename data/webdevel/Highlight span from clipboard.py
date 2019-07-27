@@ -19,4 +19,4 @@ except Exception as e:
     notify_error(e)
 
 time.sleep(0.01)
-keyboard.send_keys("<ctrl>+v")
+keyboard.send_keys("<shift>+<ctrl>+v")

@@ -1,35 +1,35 @@
 {
-    "usageCount": 61,
     "type": "script",
-    "showInTrayMenu": false,
+    "description": "Typewriter",
+    "store": {},
     "modes": [
         1,
         3
     ],
-    "filter": {
-        "isRecursive": false,
-        "regex": null
-    },
+    "usageCount": 79,
+    "prompt": false,
+    "omitTrigger": true,
+    "showInTrayMenu": false,
     "abbreviation": {
-        "triggerInside": false,
-        "backspace": true,
-        "wordChars": "[\\w]",
-        "immediate": false,
-        "ignoreCase": false,
         "abbreviations": [
             "\\tt"
-        ]
+        ],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
     },
-    "omitTrigger": true,
-    "description": "Typewriter",
-    "prompt": false,
-    "store": {},
     "hotkey": {
-        "hotKey": "t",
         "modifiers": [
             "<alt>",
             "<ctrl>",
             "<shift>"
-        ]
+        ],
+        "hotKey": "t"
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
     }
 }

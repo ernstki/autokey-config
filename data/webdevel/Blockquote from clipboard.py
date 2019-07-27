@@ -17,4 +17,6 @@ except Exception as e:
     notify_error(e)
 
 time.sleep(0.01)
+
+# Firefox doesn't understand Shift+Ctrl+V as another paste
 keyboard.send_keys("<ctrl>+v")

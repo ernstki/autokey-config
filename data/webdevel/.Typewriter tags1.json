@@ -1,23 +1,21 @@
 {
-    "type": "script",
-    "description": "Highlight span (from clipboard)",
-    "store": {},
-    "modes": [
-        1
-    ],
-    "usageCount": 10,
+    "type": "phrase",
+    "description": "Typewriter tags",
+    "modes": [],
+    "usageCount": 0,
     "prompt": false,
     "omitTrigger": true,
+    "matchCase": false,
     "showInTrayMenu": false,
     "abbreviation": {
         "abbreviations": [
-            "\\hl"
+            "<tt"
         ],
         "backspace": true,
-        "ignoreCase": true,
+        "ignoreCase": false,
         "immediate": false,
         "triggerInside": true,
-        "wordChars": "[\\w]"
+        "wordChars": "[^ \\n]"
     },
     "hotkey": {
         "modifiers": [],
@@ -26,5 +24,6 @@
     "filter": {
         "regex": null,
         "isRecursive": false
-    }
+    },
+    "sendMode": "kb"
 }
