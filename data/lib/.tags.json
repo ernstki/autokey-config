@@ -1,23 +1,19 @@
 {
-    "type": "phrase",
-    "description": "Typewriter tags",
-    "modes": [
-        1
-    ],
+    "type": "script",
+    "description": "tags",
+    "store": {},
+    "modes": [],
     "usageCount": 0,
     "prompt": false,
-    "omitTrigger": true,
-    "matchCase": false,
+    "omitTrigger": false,
     "showInTrayMenu": false,
     "abbreviation": {
-        "abbreviations": [
-            "<tt"
-        ],
+        "abbreviations": [],
         "backspace": true,
         "ignoreCase": false,
         "immediate": false,
-        "triggerInside": true,
-        "wordChars": "[^ \\n]"
+        "triggerInside": false,
+        "wordChars": "[\\w]"
     },
     "hotkey": {
         "modifiers": [],
@@ -26,6 +22,5 @@
     "filter": {
         "regex": null,
         "isRecursive": false
-    },
-    "sendMode": "kb"
+    }
 }
